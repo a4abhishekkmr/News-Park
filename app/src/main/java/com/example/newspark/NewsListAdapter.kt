@@ -6,7 +6,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class NewsListAdapter(val items:ArrayList<String>,private val listener:NewsItemsClicked): RecyclerView.Adapter<NewsViewHolder>() {
+class NewsListAdapter(private val listener:NewsItemsClicked): RecyclerView.Adapter<NewsViewHolder>() {
+
+    private val items:ArrayList<News> = ArrayList()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {
         //Layout inflator added
         val view=LayoutInflater.from(parent.context).inflate(R.layout.item_news,parent,false)
@@ -26,11 +29,18 @@ class NewsListAdapter(val items:ArrayList<String>,private val listener:NewsItems
             //binds data
         //position to bind
         val currentItem= items[position]
-        holder.titleview.text=currentItem
+        holder.titleview.text=currentItem.title
     }
 
     override fun getItemCount(): Int {
         return items.size
+    }
+
+    fun updateNews(updatedNews: ArrayList<News>){
+        items.clear()
+        items.addAll(updatedNews)
+
+        notifyDataSetChanged()
     }
 }
 
@@ -43,5 +53,5 @@ class NewsViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 //that tells that something is called here onclick listener
 //Added a interface for callback
 interface NewsItemsClicked{
-    fun onItemclick(item: String)
+    fun onItemclick(item: News)
 }
