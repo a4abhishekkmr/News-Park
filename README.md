@@ -8,7 +8,7 @@ Unlike other apps, News PArk is a free and open source.
 It works on Android version(6<Marshmello> and above).
 
 You can download this app from links given below
-[<img src="img/download.png" height="120" width="180">](https://www.mediafire.com/file/fl3683beu3bw1kv/MemeShare.apk/file)   
+[<img src="img/download.png" height="120" width="180">](http://www.mediafire.com/file/ogj5013c8hw2mdm/News_Park.apk)   
 
 ## About
 This app gives you access to All types of Latest news related to heath, covid, sports, technology, personalities, politicians and many more.
