@@ -24,7 +24,7 @@ The android app lets you:
 
 ## Screenshots
 
-<img src="/img/screen.PNG" align="left" hspace="10" vspace="10">
+<img src="/img/screen.PNG" hspace="10" vspace="10">
 
 ## Permissions
 
