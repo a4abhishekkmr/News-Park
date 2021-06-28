@@ -1,6 +1,6 @@
 # News-Park [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fa4abhishekkmr%2FNews-Park&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<img src="/img/logo.png" align="left"
+<img src="/img/logo.jpg" align="left"
 width="200" hspace="10" vspace="10">
 
 It is a News App that gives access to Live news shell in the front of screen.
@@ -24,7 +24,8 @@ The android app lets you:
 
 ## Screenshots
 
-
+<img src="/img/screen.jpg" align="left"
+hspace="10" vspace="10">
 
 ## Permissions
 
